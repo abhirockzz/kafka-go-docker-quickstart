@@ -1,3 +1,4 @@
+#credit goes to - https://github.com/confluentinc/confluent-kafka-go/issues/156#issuecomment-376311118
 FROM golang:alpine
 
 RUN apk add --update --no-cache alpine-sdk bash ca-certificates \
