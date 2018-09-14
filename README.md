@@ -1,5 +1,7 @@
 # Kafka Go(lang) quick start
 
+Check [the blog post](https://simplydistributed.wordpress.com/2018/09/14/kafka-go-client-quick-start/) for details
+
 Docker based example for Kafka using Go client
 
 - `git clone https://github.com/abhirockzz/kafka-go-docker-quickstart`
@@ -7,6 +9,7 @@ Docker based example for Kafka using Go client
 - edit `docker-compose.yml` and provide values for `KAFKA_BROKER` and `KAFKA_TOPIC` variables as per your setup
 - start - `docker-compose up`
 - check logs
+
 
 		consumer_1  | waiting for event...
 		consumer_1  | Message 2018-09-13 16:20:08.506907019 +0000 UTC m=+8854.499461595
